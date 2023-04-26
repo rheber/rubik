@@ -19,6 +19,25 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+  font-weight: bold;
   margin: 2px;
   text-align: center;
+}
+
+.section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 16px;
+  text-align: center;
+}
+
+.alg {
+  border: 1px black solid;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 2px;
+  padding-left: 2px;
+  text-align: left;
 }
