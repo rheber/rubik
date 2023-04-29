@@ -1,6 +1,7 @@
 import { Component, createSignal } from 'solid-js';
 
 import styles from './App.module.css';
+import {TopDiagram} from './TopDiagram';
 
 const triggers = new Map();
 triggers.set("airjeff", "R U2 R2 U' R2 U' R2 U2 R");
@@ -8,6 +9,7 @@ triggers.set("hedge", "F R' F' R");
 triggers.set("sexy", "R U R' U'");
 triggers.set("sledge", "R' F R F'");
 triggers.set("sune", "R U R' U R U2 R");
+
 
 const Triggers: Component<{
   triggers: Map<string, string>;
@@ -58,7 +60,6 @@ const Methods: Component = () => {
         <div class={styles.column}>
           <div class={styles.header}>3x3x3</div>
           <div class={styles.row}>
-            <div class={styles.column}>Beginner</div>
             <div class={styles.column}>
               <div class={styles.header}>CFOP</div>
               <div class={styles.column}>Cross</div>
@@ -70,16 +71,27 @@ const Methods: Component = () => {
                   <div class={styles.column}>
                     <div class={styles.header}>2L</div>
                     <div class={styles.column}>EOLL</div>
-                    <div class={styles.column}>OCLL</div>
+                    <div class={styles.column}>
+                      <div class={styles.header}>OCLL</div>
+                      <div class={styles.row}>
+                        <div class={styles.column}>
+                          OLL 21
+                          <TopDiagram u={[[0,0,0,0,0],[1,0,1,0,1],[0,1,1,1,0],[1,0,1,0,1],[0,0,0,0,0]]} />
+                        </div>
+                        <div class={styles.column}>OLL 22</div>
+                        <div class={styles.column}>OLL 23</div>
+                        <div class={styles.column}>OLL 24</div>
+                        <div class={styles.column}>OLL 25</div>
+                        <div class={styles.column}>OLL 26</div>
+                        <div class={styles.column}>OLL 27</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class={styles.column}>PLL</div>
             </div>
           </div>
-        </div>
-        <div class={styles.column}>
-          <div class={styles.header}>4x4x4</div>
         </div>
       </div>
     </div>

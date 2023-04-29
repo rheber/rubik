@@ -1,0 +1,57 @@
+.diagram {
+  aspect-ratio: 1;
+  height: 10vh;
+}
+
+.filled {
+  height: 100%;
+  width: 25%;
+  background-color: #FFFF00;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.empty {
+  height: 100%;
+  width: 25%;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.filledHoriz {
+  height: 100%;
+  width: 25%;
+  background-color: #FFFF00;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.emptyHoriz {
+  height: 100%;
+  width: 25%;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.filledVert {
+  height: 100%;
+  width: 12.5%;
+  background-color: #FFFF00;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.emptyVert {
+  height: 100%;
+  width: 12.5%;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.horizRow {
+  height: 12.5%;
+}
+
+.row {
+  height: 25%;
+}
