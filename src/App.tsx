@@ -1,4 +1,4 @@
-import type { Component } from 'solid-js';
+import { Component, createSignal } from 'solid-js';
 
 import styles from './App.module.css';
 
@@ -12,6 +12,24 @@ triggers.set("sune", "R U R' U R U2 R");
 const Triggers: Component<{
   triggers: Map<string, string>;
 }> = (props) => {
+  const [shortenerInput, setShortenerInput] = createSignal('');
+
+  const shortenedAlg = () => {
+    let result = shortenerInput().toLowerCase();
+
+    let didShorten = true;
+    while (didShorten) {
+      didShorten = false;
+      Array.from(props.triggers.entries()).forEach(e => {
+        if (result.includes(e[1].toLowerCase())) {
+          result = result.replaceAll(e[1].toLowerCase(), e[0]).toLowerCase();
+          didShorten = true;
+        }
+      });
+    }
+    return result;
+  };
+
   return (
     <div class={styles.section}>
       <div class={styles.header}>Triggers</div>
@@ -25,6 +43,9 @@ const Triggers: Component<{
           );
         })}
       </div>
+      <div class={styles.header}>Shortener</div>
+      <input value={shortenerInput()} onInput={e => setShortenerInput(e.target.value)} />
+      <code>{shortenedAlg()}</code>
     </div>
   );
 };
