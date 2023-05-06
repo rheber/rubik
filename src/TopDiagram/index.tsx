@@ -8,11 +8,11 @@ export const TopDiagram: Component<{
   return (
     <div class={styles.diagram}>
       <div class={styles.horizRow}>
-        <div />
+        <div class={styles.corner} />
         <div class={u[0][1] ? styles.filledHoriz : styles.emptyHoriz} />
         <div class={u[0][2] ? styles.filledHoriz : styles.emptyHoriz} />
         <div class={u[0][3] ? styles.filledHoriz : styles.emptyHoriz} />
-        <div />
+        <div class={styles.corner} />
       </div>
       <div class={styles.row}>
         <div class={u[1][0] ? styles.filledVert : styles.emptyVert} />
@@ -36,11 +36,11 @@ export const TopDiagram: Component<{
         <div class={u[3][4] ? styles.filledVert : styles.emptyVert} />
       </div>
       <div class={styles.horizRow}>
-        <div />
+        <div class={styles.corner} />
         <div class={u[4][1] ? styles.filledHoriz : styles.emptyHoriz} />
         <div class={u[4][2] ? styles.filledHoriz : styles.emptyHoriz} />
         <div class={u[4][3] ? styles.filledHoriz : styles.emptyHoriz} />
-        <div />
+        <div class={styles.corner} />
       </div>
     </div>
   );

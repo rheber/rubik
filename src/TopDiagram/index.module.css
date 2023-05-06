@@ -1,6 +1,8 @@
 .diagram {
   aspect-ratio: 1;
   height: 10vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .filled {
@@ -9,6 +11,7 @@
   background-color: #FFFF00;
   border: 1px solid black;
   display: inline-block;
+  box-sizing: border-box;
 }
 
 .empty {
@@ -16,6 +19,7 @@
   width: 25%;
   border: 1px solid black;
   display: inline-block;
+  box-sizing: border-box;
 }
 
 .filledHoriz {
@@ -24,6 +28,7 @@
   background-color: #FFFF00;
   border: 1px solid black;
   display: inline-block;
+  box-sizing: border-box;
 }
 
 .emptyHoriz {
@@ -31,6 +36,7 @@
   width: 25%;
   border: 1px solid black;
   display: inline-block;
+  box-sizing: border-box;
 }
 
 .filledVert {
@@ -39,6 +45,7 @@
   background-color: #FFFF00;
   border: 1px solid black;
   display: inline-block;
+  box-sizing: border-box;
 }
 
 .emptyVert {
@@ -46,12 +53,27 @@
   width: 12.5%;
   border: 1px solid black;
   display: inline-block;
+  box-sizing: border-box;
 }
 
 .horizRow {
   height: 12.5%;
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  display: flex;
 }
 
 .row {
   height: 25%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.corner {
+  height: 100%;
+  width: 12.5%;
+  display: inline-block;
+  box-sizing: border-box;
 }
