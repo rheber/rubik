@@ -78,12 +78,30 @@ const Methods: Component = () => {
                           OLL 21
                           <TopDiagram u={[[0,0,0,0,0],[1,0,1,0,1],[0,1,1,1,0],[1,0,1,0,1],[0,0,0,0,0]]} />
                         </div>
-                        <div class={styles.column}>OLL 22</div>
-                        <div class={styles.column}>OLL 23</div>
-                        <div class={styles.column}>OLL 24</div>
-                        <div class={styles.column}>OLL 25</div>
-                        <div class={styles.column}>OLL 26</div>
-                        <div class={styles.column}>OLL 27</div>
+                        <div class={styles.column}>
+                          OLL 22
+                          <TopDiagram u={[[0,0,0,1,0],[1,0,1,0,0],[0,1,1,1,0],[1,0,1,0,0],[0,0,0,1,0]]} />
+                        </div>
+                        <div class={styles.column}>
+                          OLL 23
+                          <TopDiagram u={[[0,1,0,1,0],[0,0,1,0,0],[0,1,1,1,0],[0,1,1,1,0],[0,0,0,0,0]]} />
+                        </div>
+                        <div class={styles.column}>
+                          OLL 24
+                          <TopDiagram u={[[0,1,0,0,0],[0,0,1,1,0],[0,1,1,1,0],[0,0,1,1,0],[0,1,0,0,0]]} />
+                        </div>
+                        <div class={styles.column}>
+                          OLL 25
+                          <TopDiagram u={[[0,0,0,1,0],[0,1,1,0,0],[0,1,1,1,0],[1,0,1,1,0],[0,0,0,0,0]]} />
+                        </div>
+                        <div class={styles.column}>
+                          OLL 26
+                          <TopDiagram u={[[0,0,0,1,0],[1,0,1,0,0],[0,1,1,1,0],[0,0,1,1,0],[0,1,0,0,0]]} />
+                        </div>
+                        <div class={styles.column}>
+                          OLL 27
+                          <TopDiagram u={[[0,1,0,0,0],[0,0,1,0,1],[0,1,1,1,0],[0,1,1,0,0],[0,0,0,1,0]]} />
+                        </div>
                       </div>
                     </div>
                   </div>
