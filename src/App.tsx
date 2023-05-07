@@ -77,30 +77,37 @@ const Methods: Component = () => {
                         <div class={styles.column}>
                           OLL 21
                           <TopDiagram u={[[0,0,0,0,0],[1,0,1,0,1],[0,1,1,1,0],[1,0,1,0,1],[0,0,0,0,0]]} />
+                          <div class={styles.alg}>y F (sexy)3 F'</div>
                         </div>
                         <div class={styles.column}>
                           OLL 22
                           <TopDiagram u={[[0,0,0,1,0],[1,0,1,0,0],[0,1,1,1,0],[1,0,1,0,0],[0,0,0,1,0]]} />
+                          <div class={styles.alg}>Fw sexy Fw' F sexy F'</div>
                         </div>
                         <div class={styles.column}>
                           OLL 23
                           <TopDiagram u={[[0,1,0,1,0],[0,0,1,0,0],[0,1,1,1,0],[0,1,1,1,0],[0,0,0,0,0]]} />
+                          <div class={styles.alg}>(sexy)3 (sledge)3</div>
                         </div>
                         <div class={styles.column}>
                           OLL 24
                           <TopDiagram u={[[0,1,0,0,0],[0,0,1,1,0],[0,1,1,1,0],[0,0,1,1,0],[0,1,0,0,0]]} />
+                          <div class={styles.alg}>(sledge)3 (sexy)3</div>
                         </div>
                         <div class={styles.column}>
                           OLL 25
                           <TopDiagram u={[[0,0,0,1,0],[0,1,1,0,0],[0,1,1,1,0],[1,0,1,1,0],[0,0,0,0,0]]} />
+                          <div class={styles.alg}>R' F' L' F R F' L F</div>
                         </div>
                         <div class={styles.column}>
                           OLL 26
                           <TopDiagram u={[[0,0,0,1,0],[1,0,1,0,0],[0,1,1,1,0],[0,0,1,1,0],[0,1,0,0,0]]} />
+                          <div class={styles.alg}>antisune</div>
                         </div>
                         <div class={styles.column}>
                           OLL 27
                           <TopDiagram u={[[0,1,0,0,0],[0,0,1,0,1],[0,1,1,1,0],[0,1,1,0,0],[0,0,0,1,0]]} />
+                          <div class={styles.alg}>sune</div>
                         </div>
                       </div>
                     </div>
@@ -108,6 +115,30 @@ const Methods: Component = () => {
                 </div>
               </div>
               <div class={styles.column}>PLL</div>
+                <div class={styles.row}>
+                  <div class={styles.column}>1L</div>
+                  <div class={styles.column}>
+                    <div class={styles.header}>2L</div>
+                    <div class={styles.column}>Corners</div>
+                    <div class={styles.column}>
+                      <div class={styles.header}>Edges</div>
+                      <div class={styles.row}>
+                        <div class={styles.column}>
+                          U-perm a
+                        </div>
+                        <div class={styles.column}>
+                          U-perm b
+                        </div>
+                        <div class={styles.column}>
+                          H-perm
+                        </div>
+                        <div class={styles.column}>
+                          Z-perm
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
         </div>

@@ -40,4 +40,5 @@
   margin: 2px;
   padding-left: 2px;
   text-align: left;
+  white-space: nowrap;
 }
