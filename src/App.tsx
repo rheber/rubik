@@ -130,12 +130,18 @@ const Methods: Component = () => {
                         </div>
                         <div class={styles.column}>
                           U-perm a
+                          <TopDiagram u={[[0,5,2,5,0],[2,1,1,1,4],[4,1,1,1,5],[2,1,1,1,4],[0,3,3,3,0]]} />
+                          <div class={styles.alg}>M2 U M' U2 M U M2</div>
                         </div>
                         <div class={styles.column}>
                           U-perm b
+                          <TopDiagram u={[[0,5,4,5,0],[2,1,1,1,4],[5,1,1,1,2],[2,1,1,1,4],[0,3,3,3,0]]} />
+                          <div class={styles.alg}>M2 U' M' U2 M U' M2</div>
                         </div>
                         <div class={styles.column}>
                           Z-perm
+                          <TopDiagram u={[[0,5,2,5,0],[2,1,1,1,4],[5,1,1,1,3],[2,1,1,1,4],[0,3,2,3,0]]} />
+                          <div class={styles.alg}>M2 U2 M U' M2 U' M2 U' M</div>
                         </div>
                       </div>
                     </div>
