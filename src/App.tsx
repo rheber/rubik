@@ -119,7 +119,21 @@ const Methods: Component = () => {
                   <div class={styles.column}>1L</div>
                   <div class={styles.column}>
                     <div class={styles.header}>2L</div>
-                    <div class={styles.column}>Corners</div>
+                    <div class={styles.column}>
+                      <div class={styles.header}>Corners</div>
+                      <div class={styles.row}>
+                        <div class={styles.column}>
+                          J-perm b
+                          <TopDiagram u={[[0,5,5,4,0],[2,1,1,1,3],[2,1,1,1,3],[2,1,1,1,5],[0,3,4,4,0]]} />
+                          <div class={styles.alg}>R U2 R' U' R U2 L' U R' U' L</div>
+                        </div>
+                        <div class={styles.column}>
+                          N-perm a
+                          <TopDiagram u={[[0,5,5,3,0],[2,1,1,1,2],[4,1,1,1,2],[4,1,1,1,4],[0,5,3,3,0]]} />
+                          <div class={styles.alg}>(Rw' D Rw U2)5</div>
+                        </div>
+                      </div>
+                    </div>
                     <div class={styles.column}>
                       <div class={styles.header}>Edges</div>
                       <div class={styles.row}>
