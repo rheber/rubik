@@ -5,16 +5,7 @@
   flex-direction: column;
 }
 
-.filled {
-  height: 100%;
-  width: 25%;
-  background-color: #FFFF00;
-  border: 1px solid black;
-  display: inline-block;
-  box-sizing: border-box;
-}
-
-.empty {
+.square {
   height: 100%;
   width: 25%;
   border: 1px solid black;
@@ -22,16 +13,7 @@
   box-sizing: border-box;
 }
 
-.filledHoriz {
-  height: 100%;
-  width: 25%;
-  background-color: #FFFF00;
-  border: 1px solid black;
-  display: inline-block;
-  box-sizing: border-box;
-}
-
-.emptyHoriz {
+.horiz {
   height: 100%;
   width: 25%;
   border: 1px solid black;
@@ -39,16 +21,7 @@
   box-sizing: border-box;
 }
 
-.filledVert {
-  height: 100%;
-  width: 12.5%;
-  background-color: #FFFF00;
-  border: 1px solid black;
-  display: inline-block;
-  box-sizing: border-box;
-}
-
-.emptyVert {
+.vert {
   height: 100%;
   width: 12.5%;
   border: 1px solid black;

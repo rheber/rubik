@@ -124,13 +124,15 @@ const Methods: Component = () => {
                       <div class={styles.header}>Edges</div>
                       <div class={styles.row}>
                         <div class={styles.column}>
+                          H-perm
+                          <TopDiagram u={[[0,5,3,5,0],[2,1,1,1,4],[4,1,1,1,2],[2,1,1,1,4],[0,3,5,3,0]]} />
+                          <div class={styles.alg}>M2 U M2 U2 M2 U M2</div>
+                        </div>
+                        <div class={styles.column}>
                           U-perm a
                         </div>
                         <div class={styles.column}>
                           U-perm b
-                        </div>
-                        <div class={styles.column}>
-                          H-perm
                         </div>
                         <div class={styles.column}>
                           Z-perm
